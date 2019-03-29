@@ -19,7 +19,8 @@
     "jsxFactory": "Taro.createElement",
     "allowJs": true,
     "typeRoots": [
-      "node_modules/@types"
+      "node_modules/@types",
+      "global.d.ts"
    ]
   },
   "exclude": [

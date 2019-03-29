@@ -1,3 +1,6 @@
 {
-  "extends": ["tslint-config-standard", "tslint-react"]
+  "extends": ["tslint-config-standard", "tslint-react"],
+  "rules": {
+    "jsx-no-multiline-js": false
+  }
 }

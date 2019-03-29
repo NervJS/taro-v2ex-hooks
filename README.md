@@ -1,5 +1,7 @@
 # Taro-V2EX
 
+此项目展示了如何在 Taro 中使用 [React Hooks](https://reactjs.org/docs/hooks-intro.html)，需要 Taro 1.3 以上版本构建。
+
 这个项目使用了 Taro 构建了一个 [V2ex](www.v2ex.com) 论坛小程序。主要目的在于展示如何使用 TypeScript 构建 Taro 项目和使用内置的事件中心跨组件/路由传递消息。
 
 [![v2ex.gif](https://i.loli.net/2018/08/15/5b73d86a54514.gif)](https://i.loli.net/2018/08/15/5b73d86a54514.gif)
