@@ -1,4 +1,5 @@
-import Taro, { useState } from '@tarojs/taro'
+import Taro from '@tarojs/taro'
+import React, { useState } from 'react'
 import { View, RichText, Image } from '@tarojs/components'
 import { Thread } from '../../components/thread'
 import { Loading } from '../../components/loading'

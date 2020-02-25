@@ -1,4 +1,5 @@
 import Taro from '@tarojs/taro'
+import React from 'react'
 import { View, Text, Navigator } from '@tarojs/components'
 import allNodes from './all_node'
 import api from '../../utils/api'

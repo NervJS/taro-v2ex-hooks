@@ -1,4 +1,5 @@
-import Taro, { Component } from '@tarojs/taro'
+import Taro from '@tarojs/taro'
+import React from 'react'
 import { View, Text } from '@tarojs/components'
 import { Thread } from './thread'
 import { Loading } from './loading'
@@ -22,7 +23,7 @@ interface IThread {
   key?: number
 }
 
-class ThreadList extends Component<IProps, {}> {
+class ThreadList extends React.Component<IProps, {}> {
   static defaultProps = {
     threads: [],
     loading: true

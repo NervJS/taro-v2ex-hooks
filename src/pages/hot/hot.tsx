@@ -1,4 +1,5 @@
-import Taro, { useState } from '@tarojs/taro'
+import Taro from '@tarojs/taro'
+import React, { useState } from 'react'
 import { View } from '@tarojs/components'
 import { ThreadList } from '../../components/thread_list'
 import { IThread } from '../../interfaces/thread'
